@@ -4,7 +4,7 @@ import com.google.api.server.spi.Constant;
 
 /**
  * Contains the client IDs and scopes for allowed clients consuming the
- * helloworld API.
+ * conference API.
  */
 public class Constants {
 	public static final String WEB_CLIENT_ID = "replace this with your Web cliend ID";

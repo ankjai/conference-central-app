@@ -6,13 +6,10 @@ import com.googlecode.objectify.ObjectifyFactory;
 import com.googlecode.objectify.ObjectifyService;
 
 public class OfyService {
+	// register entity classes
 	static {
 		factory().register(Profile.class);
 	}
-
-	// public OfyService() {
-	// factory().register(Profile.class);
-	// }
 
 	/**
 	 * Use this static method for getting the Objectify service object in order
